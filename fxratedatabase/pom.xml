@@ -5,7 +5,7 @@
 
 	<groupId>com.mylearing</groupId>
 	<artifactId>fxrate-db</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.1</version>
 	<packaging>jar</packaging>
 
 	<name>fxrate-db</name>
@@ -81,12 +81,12 @@
         <repository>
             <id>releases</id>
             <name>maven-releases</name>
-            <url>http://localhost:8082/nexus/repository/maven-releases/</url>
+            <url>http://34.93.131.224:8081/repository/fxrate-repository/</url>
         </repository>
         <snapshotRepository>
-            <id>snapshots</id>
-            <name>maven-snapshots</name>
-            <url>http://localhost:8082/nexus/repository/maven-snapshots/</url>
+            <id>fxrate-repository</id>
+            <name>fxrate-repository</name>
+            <url>http://34.93.131.224:8081/repository/fxrate-repository/</url>
         </snapshotRepository>
     </distributionManagement>
 

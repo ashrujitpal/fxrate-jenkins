@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: USER
+Build-Jdk: 15.0.1
+Implementation-Title: zuul-proxy
+Implementation-Version: 1.1
+Implementation-Vendor-Id: com.mylearing
+Implementation-Vendor: Pivotal Software, Inc.
+Implementation-URL: http://projects.spring.io/spring-boot/zuul-proxy/
+Created-By: Maven Integration for Eclipse
+
