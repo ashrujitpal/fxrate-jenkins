@@ -1,0 +1,10 @@
+com/fab/rate/fxratedb/service/repository/FXRatesRepository.class
+com/fab/rate/fxratedb/service/impl/FXRatesService.class
+com/fab/rate/fxratedb/controller/FXRateDbServiceApplication.class
+com/fab/rate/fxratedb/service/impl/BaseCurrencyServiceImpl.class
+com/fab/rate/fxratedb/service/model/BaseCurrency.class
+com/fab/rate/fxratedb/service/impl/FXRatesServiceImpl.class
+com/fab/rate/fxratedb/service/model/FXRates.class
+com/fab/rate/fxratedb/service/repository/BaseCurrencyRepository.class
+com/fab/rate/fxratedb/FxrateDbApplication.class
+com/fab/rate/fxratedb/service/impl/BaseCurrencyService.class
