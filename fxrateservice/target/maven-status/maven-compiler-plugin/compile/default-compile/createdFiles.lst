@@ -1,6 +1,0 @@
-com/fab/rate/fxrateservice/model/BaseCurrency.class
-com/fab/rate/fxrateservice/FxrateServiceApplication.class
-com/fab/rate/fxrateservice/model/FXRate.class
-com/fab/rate/fxrateservice/model/FxRateResponse.class
-com/fab/rate/fxrateservice/config/Config.class
-com/fab/rate/fxrateservice/controller/FXRateServiceCotroller.class
