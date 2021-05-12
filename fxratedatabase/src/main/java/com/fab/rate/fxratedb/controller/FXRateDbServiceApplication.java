@@ -56,10 +56,10 @@ public class FXRateDbServiceApplication {
 		
 	}
 
-	@GetMapping("/country/{country}")
-	public String getBaseCurrency(@PathVariable("country") String country) {
+	@GetMapping("/country/{currency}")
+	public String getBaseCurrency(@PathVariable("currency") String currency) {
 
-		List<BaseCurrency> baseCurrencies = baseCurrencyRepository.findBaseCurrenciesByCountry(country);
+		List<BaseCurrency> baseCurrencies = baseCurrencyRepository.findBaseCurrenciesByCountry(currency);
 
 		return baseCurrencies.iterator().next().getCurrency();
 

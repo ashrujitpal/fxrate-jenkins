@@ -14,7 +14,7 @@
   </modules>
   
   <properties>
-        <skip.incremental>true</skip.incremental>
+        <skip.incremental>false</skip.incremental>
     </properties>
 
     <build>

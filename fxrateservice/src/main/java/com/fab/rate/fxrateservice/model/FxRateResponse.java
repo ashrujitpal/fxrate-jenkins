@@ -9,9 +9,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 public class FxRateResponse {
 
 	private String result;
-	private BigInteger timestamp;
-	private String from;
-	private Map<String,String> rates;
+	private String base_code;
+	private Map<String,String> conversion_rates;
 	
 	public String getResult() {
 		return result;
@@ -19,25 +18,17 @@ public class FxRateResponse {
 	public void setResult(String result) {
 		this.result = result;
 	}
-	public BigInteger getTimestamp() {
-		return timestamp;
+	public String getBase_code() {
+		return base_code;
 	}
-	public void setTimestamp(BigInteger timestamp) {
-		this.timestamp = timestamp;
+	public void setBase_code(String base_code) {
+		this.base_code = base_code;
 	}
-	public String getFrom() {
-		return from;
+	public Map<String, String> getConversion_rates() {
+		return conversion_rates;
 	}
-	public void setFrom(String from) {
-		this.from = from;
+	public void setConversion_rates(Map<String, String> conversion_rates) {
+		this.conversion_rates = conversion_rates;
 	}
-	public Map getRates() {
-		return rates;
-	}
-	public void setRates(Map rates) {
-		this.rates = rates;
-	}
-	
-	
 	
 }
